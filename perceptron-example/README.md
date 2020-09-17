@@ -7,7 +7,7 @@ X = np.array([[0, 0],[0, 1],[1, 0],[1, 1]])
 y = np.array([[0],[1],[1],[1]])
 ```
 
-# Iniciamos el entrenamiento de nuestro perceptron solo usando los datos de entreda. Como dato adicional definimos que sera entrenando durante 20 ciclos con un porcentaje de aprendizaje igual a 0.1.
+### Iniciamos el entrenamiento de nuestro perceptron solo usando los datos de entreda. Como dato adicional definimos que sera entrenando durante 20 ciclos con un porcentaje de aprendizaje igual a 0.1.
 
 ```py
 p = Perceptron(X.shape[1], alpha=0.1)
